@@ -1,0 +1,57 @@
+/*section 1 start*/
+.section1-img{
+	width: 1000px;
+	height: 700px;
+	object-fit: cover;
+}
+
+
+/*section 1 end*/
+
+/*section 2 start*/
+
+.section-2-container {
+	background-image: url("../images/photo.jpg");
+	height: 500px;
+	width: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.section-2-text {
+	font-size: 22px;
+	color: white;
+}
+
+/*section 2 end*/
+
+/*section 3 start*/
+
+.section-3-p {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.section-3-p:first-letter {
+	font-size: 22px;
+	color: red;
+}
+.line:after {
+	content: "";
+	width: 2px;
+	height: 20px;
+	background-color: blue;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 10px;
+	margin-left: 15px;
+}
+
+.smile:after{
+	content: url("https://th.bing.com/th/id/R.c2dfe29f24b61d2b8898250e067cd984?rik=whBCe0jR9L2fig&riu=http%3a%2f%2fdesignlooter.com%2fimages%2fsmile-svg-2.png&ehk=%2f5CttmUXvsLXXWH%2b767BZFsxzfIpzNhbP1ucJXrv7H8%3d&risl=&pid=ImgRaw&r=0");
+	width: 50px;
+	height: 50px;
+	
+}
+
+/*section 3 end*/
